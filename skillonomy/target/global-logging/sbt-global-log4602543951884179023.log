@@ -1,0 +1,135 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.6 (Oracle Corporation Java 17.0.8)
+[debug] Load.defaultLoad until apply took 88.3249ms
+[debug]                 Load.loadUnit: plugins took 54.0047ms
+[debug]                 Load.loadUnit: defsScala took 0.1937ms
+[debug] [Loading] Scanning directory C:\Users\sj000\OneDrive\Documents\KSU\прога\scala\Skillonomy scala\skillonomy\project\project
+[debug]                   Load.loadUnit: mkEval took 4.1641ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\sj000\OneDrive\Documents\KSU\прога\scala\Skillonomy scala\skillonomy\project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 10.312 ms
+[info] loading settings for project skillonomy-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(skillonomy-build-build) took 32.2423ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id skillonomy-build-build, base: C:\Users\sj000\OneDrive\Documents\KSU\прога\scala\Skillonomy scala\skillonomy\project\project, plugins: List(<none>))) took 63.8793ms
+[debug] [Loading] Done in C:\Users\sj000\OneDrive\Documents\KSU\прога\scala\Skillonomy scala\skillonomy\project\project, returning: (skillonomy-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 280.2901ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 11.0196ms
+[debug]               Load.loadUnit(file:/C:/Users/sj000/OneDrive/Documents/KSU/прога/scala/Skillonomy%20scala/skillonomy/project/project/, ...) took 350.2893ms
+[debug]             Load.apply: load took 438.0816ms
+[debug]             Load.apply: resolveProjects took 4.536ms
+[debug]             Load.apply: finalTransforms took 67.3748ms
+[debug]             Load.apply: config.delegates took 5.416ms
+[debug]             Load.apply: Def.make(settings)... took 279.5663ms
+[debug]             Load.apply: structureIndex took 67.4513ms
+[debug]             Load.apply: mkStreams took 1.0555ms
+[info] loading project definition from C:\Users\sj000\OneDrive\Documents\KSU\прога\scala\Skillonomy scala\skillonomy\project\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 1481.1995ms
+[debug]           Load.loadUnit: defsScala took 0.0029ms
+[debug] [Loading] Scanning directory C:\Users\sj000\OneDrive\Documents\KSU\прога\scala\Skillonomy scala\skillonomy\project
+[debug]             Load.loadUnit: mkEval took 0.2226ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\sj000\OneDrive\Documents\KSU\прога\scala\Skillonomy scala\skillonomy\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.2578 ms
+[info] loading settings for project skillonomy-build from metals.sbt ...
+[debug]               Load.resolveProject(skillonomy-build) took 11.778ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id skillonomy-build, base: C:\Users\sj000\OneDrive\Documents\KSU\прога\scala\Skillonomy scala\skillonomy\project, plugins: List(<none>))) took 13.6392ms
+[debug] [Loading] Done in C:\Users\sj000\OneDrive\Documents\KSU\прога\scala\Skillonomy scala\skillonomy\project, returning: (skillonomy-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 30.3066ms
+[debug]           Load.loadUnit: cleanEvalClasses took 2.7391ms
+[debug]         Load.loadUnit(file:/C:/Users/sj000/OneDrive/Documents/KSU/прога/scala/Skillonomy%20scala/skillonomy/project/, ...) took 1515.0389ms
+[debug]       Load.apply: load took 1516.8832ms
+[debug]       Load.apply: resolveProjects took 0.0917ms
+[debug]       Load.apply: finalTransforms took 21.4849ms
+[debug]       Load.apply: config.delegates took 0.2384ms
+[debug]       Load.apply: Def.make(settings)... took 63.9251ms
+[debug]       Load.apply: structureIndex took 22.3173ms
+[debug]       Load.apply: mkStreams took 0.0021ms
+[info] loading project definition from C:\Users\sj000\OneDrive\Documents\KSU\прога\scala\Skillonomy scala\skillonomy\project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Generated .bloop\skillonomy-build.json
+[success] Total time: 2 s, completed 5 дек. 2023 г., 15:51:35
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3830.5468ms
+[debug]     Load.loadUnit: defsScala took 0.0021ms
+[debug] [Loading] Scanning directory C:\Users\sj000\OneDrive\Documents\KSU\прога\scala\Skillonomy scala\skillonomy
+[debug]       Load.loadUnit: mkEval took 0.1717ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\sj000\OneDrive\Documents\KSU\прога\scala\Skillonomy scala\skillonomy, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.871 ms
+[info] loading settings for project skillonomy from build.sbt ...
+[debug]         Load.resolveProject(skillonomy) took 11.1942ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id skillonomy, base: C:\Users\sj000\OneDrive\Documents\KSU\прога\scala\Skillonomy scala\skillonomy, plugins: List(<none>))) took 12.3376ms
+[debug] [Loading] Done in C:\Users\sj000\OneDrive\Documents\KSU\прога\scala\Skillonomy scala\skillonomy, returning: (skillonomy)
+[debug]     Load.loadUnit: loadedProjectsRaw took 70.7234ms
+[debug]     Load.loadUnit: cleanEvalClasses took 17.9838ms
+[debug]   Load.loadUnit(file:/C:/Users/sj000/OneDrive/Documents/KSU/прога/scala/Skillonomy%20scala/skillonomy/, ...) took 3920.6122ms
+[debug] Load.apply: load took 3942.3229ms
+[debug] Load.apply: resolveProjects took 0.0895ms
+[debug] Load.apply: finalTransforms took 10.4057ms
+[debug] Load.apply: config.delegates took 0.2434ms
+[debug] Load.apply: Def.make(settings)... took 43.9954ms
+[debug] Load.apply: structureIndex took 29.5792ms
+[debug] Load.apply: mkStreams took 0.0016ms
+[info] set current project to skillonomy (in build file:/C:/Users/sj000/OneDrive/Documents/KSU/прога/scala/Skillonomy%20scala/skillonomy/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-079775513b9d66d506f3
+[debug] Writing bsp connection file
+[info] started sbt server
